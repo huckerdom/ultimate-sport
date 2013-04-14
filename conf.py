@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import time
@@ -13,7 +12,7 @@ BLOG_AUTHOR = "Pankaj and Gang"
 BLOG_TITLE = "Ultimate!"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://blog.ultimatespore.in"
+SITE_URL = "http://blog.ultimatesport.in"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://nikola.ralsina.com.ar"
@@ -174,8 +173,8 @@ post_compilers = {
 # "rsync -rav output/* joe@my.site:/srv/www/site"
 # And then do a backup, or ping pingomatic.
 # To do manual deployment, set it to []
-DEPLOY_COMMANDS = ['rm -rf /var/www/ultimatesport.in', 
-                   'cp -a output /var/www/ultimatesport.in',
+DEPLOY_COMMANDS = ['rm -rf /var/www/html/ultimatesport.in',
+                   'cp -a output /var/www/html/ultimatesport.in',
                    ]
 
 # Where the output site should be located

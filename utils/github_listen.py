@@ -1,13 +1,14 @@
 from os.path import abspath, dirname
 import os
-import shlex 
+import shlex
 import subprocess
 
 from flask import Flask, request
 
 app = Flask(__name__)
 
-commands = ['git pull origin master', 'nikola build', 'nikola deploy']
+commands = ['git stash', 'git checkout master', 'git pull origin master',
+            'nikola build', 'nikola deploy']
 
 @app.route('/', methods=['POST'])
 def listen():
@@ -22,4 +23,4 @@ def publish_site():
     return 'Success'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=8008)
