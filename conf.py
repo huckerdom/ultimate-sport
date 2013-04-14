@@ -8,7 +8,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Pankaj and Gang"
+BLOG_AUTHOR = "The Ultimate Gang"
 BLOG_TITLE = "Ultimate!"
 # This is the main URL for your site. It will be used
 # in a prominent link
@@ -16,7 +16,7 @@ SITE_URL = "http://blog.ultimatesport.in"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://nikola.ralsina.com.ar"
-BLOG_EMAIL = "pankaj86@gmail.com"
+BLOG_EMAIL = "admin@ultimatesport.in"
 BLOG_DESCRIPTION = "Ramblings about Ultimate!"
 
 # Nikola is multilingual!
