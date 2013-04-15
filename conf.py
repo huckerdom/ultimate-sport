@@ -265,11 +265,16 @@ DEPLOY_COMMANDS = ['rm -rf /var/www/html/ultimatesport.in',
 # A HTML fragment describing the license, for the sidebar. Default is "".
 # I recommend using the Creative Commons' wizard:
 # http://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="http://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>"""
+LICENSE = """
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+<img alt="Creative Commons License" style="border-width:0"
+     src="http://i.creativecommons.org/l/by/3.0/80x15.png" />
+</a>
+<br />This <span xmlns:dct="http://purl.org/dc/terms/"
+href="http://purl.org/dc/dcmitype/Text" rel="dct:type">work</span> is licensed under a
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+"""
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
