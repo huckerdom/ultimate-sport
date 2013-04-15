@@ -33,10 +33,11 @@ def is_github_ip(our_ip):
 def publish_site():
     print 'Publishing site'
     directory = dirname(dirname(abspath(__file__)))
-    print 'cd into', directory
+    old_dir = os.getcwd()
     os.chdir(directory)
     for command in commands:
         subprocess.call(shlex.split(command))
+    os.chdir(old_dir)
     return 'Success'
 
 @app.route('/', methods=['POST'])
