@@ -17,7 +17,9 @@ def listen():
 
 def publish_site():
     print 'Publishing site'
-    os.chdir(dirname(dirname(abspath(__file__))))
+    directory = dirname(dirname(abspath(__file__)))
+    print 'cd into', directory
+    os.chdir(directory)
     for command in commands:
         subprocess.call(shlex.split(command))
     return 'Success'
