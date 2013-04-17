@@ -233,7 +233,7 @@ DEPLOY_COMMANDS = ['rm -rf /var/www/html/ultimatesport.in',
 # INDEXES_PAGES = ""  # If this is empty, the default is 'old posts page %d' translated
 
 # Name of the theme to use.
-# THEME = 'site'
+THEME = 'custom'
 
 # Color scheme to be used for code blocks. If your theme provide "assets/css/code.css" this
 # is ignored.
@@ -445,4 +445,4 @@ ANALYTICS = """
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 
-GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {'GITHUB_REPO_URL': 'https://github.com/pankajp/ultimate-sport/'}
