@@ -54,5 +54,8 @@ needs to be.
 .. image:: /images/pick_decision.jpg
     :align: center
 
+
+Credits: The images are courtesy WFDF rule books!
+
 .. _WFDF Rules: http://www.wfdf.org/sports/rules-of-play/doc_download/20-rules-of-ultimate
 .. _official interpretation: http://www.wfdf.org/sports/rules-of-play/doc_download/23-official-interpretations-
