@@ -1,0 +1,6 @@
+## -*- coding: utf-8 -*-
+<%def name="author(post)">
+    %if post.meta('author'):
+        &nbsp;&nbsp;|&nbsp;&nbsp;Author: ${post.meta('author')}
+    %endif
+</%def>
