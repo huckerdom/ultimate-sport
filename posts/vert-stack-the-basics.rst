@@ -4,6 +4,7 @@
 .. date: 2013/04/19 07:45:53
 .. title: Vert Stack: The Basics
 .. slug: vert-stack-the-basics
+.. author: punchagan
 
 A vertical stack is one of the first things you are taught as a
 beginner.  This post will try to give you a brief overview of the

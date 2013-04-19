@@ -1,5 +1,6 @@
 ## -*- coding: utf-8 -*-
 <%namespace name="helper" file="post_helper.tmpl"/>
+<%namespace name="help" file="helper.tmpl"/>
 <%namespace name="disqus" file="disqus_helper.tmpl"/>
 <%inherit file="base.tmpl"/>
 <%block name="extra_head">
@@ -13,6 +14,7 @@ ${helper.twitter_card_information(post)}
         ${messages("Posted")}: <time class="published" datetime="${post.date.isoformat()}">${post.formatted_date(date_format)}</time>
         ${helper.html_translations(post)}
         ${helper.html_tags(post)}
+        ${help.author(post)}
     </small>
     <hr>
     ${post.text()}
