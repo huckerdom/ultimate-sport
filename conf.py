@@ -90,6 +90,7 @@ SIDEBAR_LINKS = {
 post_pages = (
     ("posts/*.rst", "posts", "post.tmpl", True),
     ("posts/*.txt", "posts", "post.tmpl", True),
+    ("stories/*.rst", "stories", "story.tmpl", False),
     ("stories/*.txt", "stories", "story.tmpl", False),
 )
 
@@ -279,10 +280,11 @@ Creative Commons Attribution 3.0 Unported License</a>
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = 'Contents &copy; {date} <a href="mailto:{email}">{author}</a> - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a>'
+CONTENT_FOOTER = 'Contents &copy; {date} <a href="mailto:{email}">{author}</a> - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a> - {license}'
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
-                                       date=time.gmtime().tm_year)
+                                       date=time.gmtime().tm_year,
+                                       license=LICENSE)
 
 # To enable comments via Disqus, you need to create a forum at
 # http://disqus.com, and set DISQUS_FORUM to the short name you selected.
