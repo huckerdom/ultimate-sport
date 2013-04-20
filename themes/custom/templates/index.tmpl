@@ -9,7 +9,7 @@
         </div>
         <div class="postmeta">
         <small>&nbsp;&nbsp;
-             ${messages[lang]["Posted"]}: ${post.date}
+             ${messages[lang]["Posted"]}: ${post.formatted_date(date_format)}
              · Author: ${post.meta('author')}
         </small>
         %if disqus_forum:
