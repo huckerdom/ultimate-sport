@@ -11,7 +11,7 @@
     </div>
     <hr>
     <div class="postmeta">
-        ${messages[lang]["Posted"]}: ${post.date}
+        ${messages[lang]["Posted"]}: ${post.formatted_date(date_format)}
         ${help.author(post)}
         %if len(translations) > 1:
             %for langname in translations.keys():
