@@ -1,7 +1,7 @@
 ## -*- coding: utf-8 -*-
 <%inherit file="base.tmpl"/>
 <%block name="content">
-    % for post in posts:
+    %for post in posts:
         <div class="postdiv">
         <a href="${post.permalink(lang)}"><h2>${post.title(lang)}</a></h2>
         ${post.text(lang,index_teasers)}
@@ -15,12 +15,12 @@
         %if disqus_forum:
             · <a href="${post.permalink(absolute=True)}#disqus_thread">Comments</a>
         %endif
-        % for tag in post.tags:
-             · ${tag}
+        %for tag in post.tags:
+             · <a class="tag" href="${_link('tag', tag, lang)}">${tag}</a>
         %endfor
         </div>
         <hr>
-    % endfor
+    %endfor
     <div>
 <ul class="pager">
   %if prevlink:
