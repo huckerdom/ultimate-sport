@@ -1,5 +1,4 @@
 ## -*- coding: utf-8 -*-
-<%namespace name="disqus" file="disqus_helper.tmpl"/>
 <%inherit file="base.tmpl"/>
 <%block name="content">
     %for post in posts:
@@ -14,7 +13,7 @@
              · Author: ${post.meta('author')}
         </small>
         %if disqus_forum:
-            · ${disqus.html_disqus_link(post.permalink()+"#/0/1", post.base_path)}
+            · <a href="${post.permalink(absolute=True)}#disqus_thread">Comments</a>
         %endif
         %for tag in post.tags:
              · <a class="tag" href="${_link('tag', tag, lang)}">${tag}</a>
