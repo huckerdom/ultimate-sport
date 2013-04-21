@@ -1,11 +1,13 @@
 .. title: Welcome to Ultimate Sport
 .. slug: welcome-to-ultimate-sport
 .. date: 2013/04/14 08:48:29
-.. tags: 
-.. link: 
+.. tags:
+.. link:
 .. description: Welcome to Ultimatesport.in
 
-Welcome! This is a site by a bunch of guys who fell in love with Ultimate. 
+Welcome! This is a site by a bunch of guys who fell in love with Ultimate.
+
+.. TEASER_END
 
 We wish to ramble here about all things Ultimate! The coolest game in the World!
 
@@ -13,7 +15,4 @@ We wish to ramble here about all things Ultimate! The coolest game in the World!
     :align: center
     :scale: 80
 
-Image by `Toby Green <http://www.flickr.com/photos/52354170@N00/>`_. 
-
-
-
+Image by `Toby Green <http://www.flickr.com/photos/52354170@N00/>`_.

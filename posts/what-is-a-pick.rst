@@ -9,6 +9,8 @@
 A "pick" is a violation in Ultimate, that is called by a defender when
 he is screened from getting to the disc.
 
+.. TEASER_END
+
 A screen, in general, is a blocking move by an offensive player to
 block or obstruct the movement of a defender, to free a teammate to
 shoot, receive a pass, or drive in to score. In basketball, it is also

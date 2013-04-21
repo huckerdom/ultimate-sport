@@ -263,7 +263,7 @@ DATE_FORMAT = '%a, %d %b %Y %H:%M:%S %z'
 # }
 
 # Show only teasers in the index pages? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # A HTML fragment describing the license, for the sidebar. Default is "".
 # I recommend using the Creative Commons' wizard:
@@ -338,7 +338,7 @@ DISQUS_FORUM = "ultimatesport"
 # RSS_LINK = None
 
 # Show only teasers in the RSS feed? Default to True
-# RSS_TEASERS = True
+RSS_TEASERS = False
 
 # A search form to search this site, for the sidebar. You can use a google
 # custom search (http://www.google.com/cse/)

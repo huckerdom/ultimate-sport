@@ -10,6 +10,8 @@ A vertical stack is one of the first things you are taught as a
 beginner.  This post will try to give you a brief overview of the
 offense in the vertical stack.
 
+.. TEASER_END
+
 I started off to write a detailed post on the stack, but found `this
 article <http://www.ultimatehandbook.com/basics/the-stack/#3>`_.  I
 would recommend you to first read this and come back to read the
