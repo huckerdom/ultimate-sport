@@ -6,6 +6,9 @@
 .. slug: if-you-touch-it-you-should-catch-it
 .. author: punchagan
 
+This is a random post on getting better at catching.
+
+.. TEASER_END
 
 Yesterday's game: Light vs. Dark.  Score-line: 2-11 & 2-4.  A very
 lopsided game.  For the record, I was in the light/white team.  What
@@ -34,7 +37,6 @@ These are some of the things, I think would help avoid silly drops --
   throws, so you feel more comfortable getting the disc into your
   hands and passing it onto the handler.
 
-Lot more tips in this issue of `the huddle
-<http://www.the-huddle.org/issues/8/anticipation-and-focus/>_`.
+Lot more tips in this issue of `the huddle <http://www.the-huddle.org/issues/8/anticipation-and-focus/>`_.
 
 "If you touch it, you should catch it." -- Bill Burruss
