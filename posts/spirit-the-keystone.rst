@@ -4,6 +4,7 @@
 .. date: 2013/04/21 20:54:20
 .. title: Spirit(n) /ˈspirit/: the keystone of Ultimate
 .. slug: spiritn-spirit-the-keystone-of-ultimate
+.. author: punchagan
 
 Spirit of the Game (SOTG) is rule #1 of the game.  Ultimate relies on
 a Spirit of the Game that places the responsibility of fair play on
