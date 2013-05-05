@@ -30,6 +30,9 @@ def is_github_ip(our_ip):
             return True
     return False
 
+def is_acceptable_ip(our_ip):
+    return (our_ip == '127.0.0.1') or is_github_ip(our_ip)
+
 def publish_site():
     print 'Publishing site'
     directory = dirname(dirname(abspath(__file__)))
@@ -42,7 +45,7 @@ def publish_site():
 
 @app.route('/', methods=['POST'])
 def listen():
-    if is_github_ip(request.remote_addr):
+    if is_acceptable_ip(request.remote_addr):
         return publish_site()
     else:
         print 'Received request from %s. Ignored.' % request.remote_addr
