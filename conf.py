@@ -176,8 +176,7 @@ post_compilers = {
 # "rsync -rav output/* joe@my.site:/srv/www/site"
 # And then do a backup, or ping pingomatic.
 # To do manual deployment, set it to []
-DEPLOY_COMMANDS = ['rm -rf /var/www/html/ultimatesport.in',
-                   'cp -a output /var/www/html/ultimatesport.in',
+DEPLOY_COMMANDS = ['rsync -rav --delete output/* /var/www/html/ultimatesport.in',
                    ]
 
 # Where the output site should be located
