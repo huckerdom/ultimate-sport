@@ -1,4 +1,4 @@
-from os.path import abspath, dirname
+from os.path import abspath, dirname, join
 import os
 import shlex
 import subprocess
@@ -43,6 +43,11 @@ def publish_site():
         subprocess.call(shlex.split(command))
     os.chdir(old_dir)
     return 'Success'
+
+@app.route('/status.png', methods=['GET'])
+def send_status_img():
+    return (open(join(dirname(dirname(abspath(__file__))), 'files', 'images', 'deployer_up.png'), 'rb').read(),
+            200, {'content-type':'image/png'})
 
 @app.route('/', methods=['POST'])
 def listen():
