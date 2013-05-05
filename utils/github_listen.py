@@ -2,6 +2,7 @@ from os.path import abspath, dirname
 import os
 import shlex
 import subprocess
+import traceback
 
 from flask import Flask, request
 
@@ -46,10 +47,16 @@ def publish_site():
 @app.route('/', methods=['POST'])
 def listen():
     if is_acceptable_ip(request.remote_addr):
-        return publish_site()
+        try:
+            return publish_site()
+        except:
+            traceback.print_exc()
+            return 'Internal Error', 500
     else:
         print 'Received request from %s. Ignored.' % request.remote_addr
+        return 'Forbidden', 403
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8008)
+    # Debug is set to true for the auto-reloading functionality
+    app.run(host='0.0.0.0', port=8008, debug=True)
