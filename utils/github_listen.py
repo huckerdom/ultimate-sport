@@ -49,7 +49,7 @@ def send_status_img():
     return (open(join(dirname(dirname(abspath(__file__))), 'files', 'images', 'deployer_up.png'), 'rb').read(),
             200, {'content-type':'image/png'})
 
-@app.route('/', methods=['POST'])
+@app.route('/rebuild', methods=['POST'])
 def listen():
     if is_acceptable_ip(request.remote_addr):
         try:
