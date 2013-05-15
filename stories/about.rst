@@ -13,7 +13,7 @@ here, while we share our experiences and tips & techniques to become
 better Ultimate players.
 
 If you wish to contribute, either send a pull request on `GitHub
-<https://github.com/pankajp/ultimate-sport>`_ or leave a comment `here
+<https://github.com/huckerdom/ultimate-sport>`_ or leave a comment `here
 </posts/welcome-to-ultimate-sport.html>`_.
 
 .. raw:: html
@@ -29,7 +29,7 @@ If you wish to contribute, either send a pull request on `GitHub
         elem.src = 'http://'+window.location.hostname+':8008/status.png';
 
         var gh_fork = document.createElement('a');
-        gh_fork.href = "https://github.com/pankajp/ultimate-sport";
+        gh_fork.href = "https://github.com/huckerdom/ultimate-sport";
         gh_fork.innerHTML =  '<img style="position: absolute; right: 0; border: 0;" '+
                     'src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" '+
                     'alt="Fork me on GitHub">';

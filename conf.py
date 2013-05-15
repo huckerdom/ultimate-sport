@@ -8,7 +8,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "The Ultimate Gang"
+BLOG_AUTHOR = "Huckerdom"
 BLOG_TITLE = "Ultimate!"
 # This is the main URL for your site. It will be used
 # in a prominent link
@@ -448,4 +448,4 @@ USE_BUNDLES = True
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 
-GLOBAL_CONTEXT = {'GITHUB_REPO_URL': 'https://github.com/pankajp/ultimate-sport/'}
+GLOBAL_CONTEXT = {'GITHUB_REPO_URL': 'https://github.com/huckerdom/ultimate-sport/'}
