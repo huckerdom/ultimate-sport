@@ -1,6 +1,6 @@
 .. link:
 .. description:
-.. tags:
+.. tags: defense, catch, sky, D
 .. date: 2013/05/15 07:22:47
 .. title: Catch Your D's
 .. slug: catch-your-ds
@@ -19,3 +19,6 @@ doesn't really help, does it?  Catching is something we are practicing
 all the time, and when the disc is catchable, I think it's best to let
 it stick into your hand, instead of trying to smack it down, and
 failing and giving the opponents a chance to catch the disc.
+
+Ultimate Rob `feels
+<http://www.ultimaterob.com/2012/08/02/catch-the-d/>`_ the same.
