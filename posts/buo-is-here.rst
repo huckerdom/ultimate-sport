@@ -8,8 +8,11 @@
 Bangalore Ultimate Open is here! Play, Dive, Bond, Smile and Fly, from
 July 12th to 14th! See you at Sree Kanteerava Stadium, Bangalore!
 
+EDIT: The venue has been changed to Aditya Sports Complex, Nelamangala,
+Bangalore.
+
 |buo|
 
-.. |buo| image:: http://www.bangaloreultimate.com/images/BUO.png
+.. |buo| image:: http://www.bangaloreultimate.com/images/buo2.png
     :scale: 80
     :target: http://www.bangaloreultimate.com/
