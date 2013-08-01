@@ -373,7 +373,10 @@ USE_CDN = True
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </HEAD>
-# EXTRA_HEAD_DATA = ""
+EXTRA_HEAD_DATA = """
+<meta name="google-site-verification" content="xDRHDFkmmfUHtCTwXV5lcJQTa_OgzuyV4UKI8J1q1PA" />
+"""
+
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 ANALYTICS = """
