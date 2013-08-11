@@ -13,15 +13,15 @@ with some interesting and inspiring videos!
 
 Summary:
 
- - Throws: Every practice session should start with a lot of throwing.
+- Throws: Every practice session should start with a lot of throwing.
 
- - Drills: do them as if your life depended on them.
+- Drills: do them as if your life depended on them
 
- - Fitness: Work on it yourself and with your team; Work on everything -
-   speed, agility, power, strength
+- Fitness: Work on it yourself and with your team; Work on everything - speed,
+  agility, power, strength
 
- - Strategy: Try out a lot of things.  Keep learning
+- Strategy: Try out a lot of things.  Keep learning
 
- - Play: There's no substitute to actual game time.
+- Play: There's no substitute to actual game time.
 
 .. _this nicely written post: http://www.indiaultimate.org/2013/08/ultimate-practice/
