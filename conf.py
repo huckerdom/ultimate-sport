@@ -437,7 +437,7 @@ TIMEZONE = 'Asia/Kolkata'
 USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
-# DISABLED_PLUGINS = ["render_galleries"]
+DISABLED_PLUGINS = ["render_sources"]
 
 # Experimental plugins - use at your own risk.
 # They probably need some manual adjustments - please see their respective readme.
