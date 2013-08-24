@@ -52,7 +52,7 @@ TRANSLATIONS = {
 
 # Links for the sidebar / navigation bar.
 # You should provide a key-value pair for each used language.
-SIDEBAR_LINKS = {
+NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/stories/about.html', 'About'),
         ('/archive.html', 'Archives'),
@@ -379,7 +379,7 @@ EXTRA_HEAD_DATA = """
 
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
-ANALYTICS = """
+BODY_END = """
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
