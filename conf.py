@@ -304,6 +304,26 @@ DISQUS_FORUM = "ultimatesport"
 # Default = False
 # STRIP_INDEX_HTML = False
 
+# If True, publish future dated posts right away instead of scheduling them.
+# Defaults to False.
+# FUTURE_IS_NOW = False
+
+# If True, future dated posts are allowed in deployed output
+# Only the individual posts are published/deployed; not in indexes/sitemap
+# Generally, you want FUTURE_IS_NOW and DEPLOY_FUTURE to be the same value.
+# DEPLOY_FUTURE = False
+# If False, draft posts will not be deployed
+# DEPLOY_DRAFTS = True
+
+# Allows scheduling of posts using the rule specified here (new_post -s)
+# Specify an iCal Recurrence Rule: http://www.kanzaki.com/docs/ical/rrule.html
+SCHEDULE_RULE = 'RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;BYHOUR=8'
+# If True, use the scheduling rule to all posts by default
+SCHEDULE_ALL = True
+# If True, schedules post to today if possible, even if scheduled hour is over
+SCHEDULE_FORCE_TODAY = True
+
+
 # Do you want a add a Mathjax config file?
 # MATHJAX_CONFIG = ""
 
