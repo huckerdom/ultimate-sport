@@ -318,7 +318,7 @@ COMMENT_SYSTEM_ID = "ultimatesport"
 
 # Allows scheduling of posts using the rule specified here (new_post -s)
 # Specify an iCal Recurrence Rule: http://www.kanzaki.com/docs/ical/rrule.html
-SCHEDULE_RULE = 'RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;BYHOUR=8'
+SCHEDULE_RULE = 'RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;BYHOUR=8;BYMINUTE=0;BYSECOND=0'
 # If True, use the scheduling rule to all posts by default
 SCHEDULE_ALL = True
 # If True, schedules post to today if possible, even if scheduled hour is over
