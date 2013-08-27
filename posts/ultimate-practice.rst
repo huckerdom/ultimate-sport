@@ -4,6 +4,7 @@
 .. date: 2013/08/12 00:16:32
 .. title: Ultimate Practice
 .. slug: ultimate-practice
+.. author: punchagan
 
 I came across `this nicely written post`_ on the importance of practice
 sessions for a team.  Many of the points discussed are very common in

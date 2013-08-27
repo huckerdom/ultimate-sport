@@ -4,6 +4,7 @@
 .. date: 2013/05/15 07:22:47
 .. title: Catch Your D's
 .. slug: catch-your-ds
+.. author: punchagan
 
 In Tuesday's match, I got a couple of good D's, or so I thought, until
 I saw that the discs that I smacked away, didn't actually go crashing

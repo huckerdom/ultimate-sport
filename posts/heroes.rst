@@ -4,6 +4,7 @@
 .. date: 2013/05/05 19:38:46
 .. title: Heroes
 .. slug: heroes
+.. author: punchagan
 
 Having heroes that you look up-to, and emulate, is a big deal.
 

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import time
+import os
 
 ##############################################
 # Configuration, please edit
@@ -426,6 +427,11 @@ BODY_END = """
 # An example re is the following:
 # '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)-(?P<title>.*)\.md'
 # FILE_METADATA_REGEXP = None
+
+# Additional fields to add to the post, when creating a new_post
+ADDITIONAL_METADATA = {
+    'author': os.environ.get('USER', ''),
+}
 
 # Nikola supports Twitter Card summaries / Open Graph.
 # Twitter cards make it possible for you to attach media to Tweets
