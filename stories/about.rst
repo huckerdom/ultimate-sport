@@ -14,7 +14,11 @@ better Ultimate players.
 
 If you wish to contribute, either send a pull request on `GitHub
 <https://github.com/huckerdom/ultimate-sport>`_ or leave a comment `here
-</posts/welcome-to-ultimate-sport.html>`_.
+</posts/welcome-to-ultimate-sport.html>`_.  If you have nikola installed, use
+the ``new_post`` command to generate the empty file, or use copy over the
+`post.tmpl </post.tmpl>`_ file to the posts directory with an appropriate
+filename and extension.
+
 
 .. raw:: html
 
@@ -36,4 +40,3 @@ If you wish to contribute, either send a pull request on `GitHub
         document.querySelector('.navbar.navbar-fixed-top').appendChild(gh_fork);
     })();
     </script>
-
