@@ -1,6 +1,6 @@
 .. link:
-.. description:
-.. tags:
+.. description: Always carry your disc
+.. tags: disc, tips
 .. date: 2013/08/26 08:16:32
 .. title: Carry a Disc, Always
 .. slug: carry-a-disc-always

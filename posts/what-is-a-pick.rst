@@ -3,11 +3,11 @@
 .. date: 2013/04/17 06:44:41
 .. tags: rules, foul, violation, infraction
 .. link:
-.. description:
+.. description: A "pick" is a violation in Ultimate
 .. author: punchagan
 
-A "pick" is a violation in Ultimate, that is called by a defender when
-he is screened from getting to the disc.
+A "pick" is a violation in Ultimate, that is called by a defender when he is
+screened from getting to the disc.
 
 .. TEASER_END
 

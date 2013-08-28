@@ -1,6 +1,6 @@
 .. link:
 .. description:
-.. tags: defense, catch, sky, D
+.. tags: defense, catch, sky, D, tips
 .. date: 2013/05/15 07:22:47
 .. title: Catch Your D's
 .. slug: catch-your-ds

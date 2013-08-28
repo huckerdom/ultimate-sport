@@ -1,6 +1,6 @@
 .. link:
-.. description:
-.. tags:
+.. description: Ultimate players killed after being struck by a lightning
+.. tags: rip, death, memory, lightning, surat
 .. date: 2013/08/08 21:56:26
 .. title: RIP Piyush
 .. slug: rip-piyush

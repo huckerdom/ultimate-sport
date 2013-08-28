@@ -1,6 +1,6 @@
-.. link: 
-.. description: 
-.. tags: 
+.. link:
+.. description:
+.. tags: spirit, opponents, game, quote, greatness
 .. date: 2013/07/19 12:09:53
 .. title: Opponents, SOTG & Greatness
 .. slug: opponents-greatness

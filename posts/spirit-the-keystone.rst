@@ -1,6 +1,6 @@
 .. link:
-.. description:
-.. tags:
+.. description: Ultimate is all about the spirit of the game
+.. tags: spirit, joy, rules, fun
 .. date: 2013/04/21 20:54:20
 .. title: Spirit(n) /ˈspirit/: the keystone of Ultimate
 .. slug: spiritn-spirit-the-keystone-of-ultimate

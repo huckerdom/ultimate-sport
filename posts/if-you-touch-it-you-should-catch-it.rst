@@ -1,6 +1,6 @@
 .. link:
-.. description:
-.. tags:
+.. description: If you touch it, you should catch it
+.. tags: catch, disc, advice
 .. date: 2013/04/24 08:35:03
 .. title: If you touch it, you should catch it.
 .. slug: if-you-touch-it-you-should-catch-it

@@ -1,6 +1,6 @@
 .. link:
-.. description:
-.. tags:
+.. description: Practice is important
+.. tags: practice, throw, catch, drill, fitness, strategy
 .. date: 2013/08/12 00:16:32
 .. title: Ultimate Practice
 .. slug: ultimate-practice

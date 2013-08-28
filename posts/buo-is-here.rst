@@ -1,6 +1,6 @@
 .. link:
-.. description:
-.. tags:
+.. description: Bangalore Ultimate Open 2013
+.. tags: bangalore, tournament
 .. date: 2013/05/26 23:18:16
 .. title: BUO is here!
 .. slug: buo-is-here

@@ -1,6 +1,6 @@
 .. link:
 .. description:
-.. tags:
+.. tags: force, mark, defense, strategy, tips
 .. date: 2013/04/26 21:24:13
 .. title: Force Backhand
 .. slug: force-backhand

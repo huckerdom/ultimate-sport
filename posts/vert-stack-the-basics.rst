@@ -1,5 +1,5 @@
 .. link:
-.. description:
+.. description: A basic offensive strategy in Ultimate - Vertical Stack
 .. tags: stack, offense, strategy
 .. date: 2013/04/19 07:45:53
 .. title: Vert Stack: The Basics
