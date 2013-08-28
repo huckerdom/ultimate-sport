@@ -3,7 +3,7 @@
 .. title: A fun drill
 .. link:
 .. author: punchagan
-.. date: 2013/08/30 08:00:00
+.. date: 2013/08/28 08:00:00
 .. slug: a-fun-drill
 
 `Pankaj <http://github.com/pankajp>`_ and I came up with a fun throwing and
