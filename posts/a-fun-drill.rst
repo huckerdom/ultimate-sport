@@ -1,5 +1,5 @@
 .. description: A fun throwing and catching drill that we discovered
-.. tags: throwing, catching, drill
+.. tags: throw, catch, drill
 .. title: A fun drill
 .. link:
 .. author: punchagan
