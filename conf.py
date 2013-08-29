@@ -251,7 +251,7 @@ THEME = 'custom'
 # THEME_REVEAL_CONGIF_TRANSITION = 'cube' # You can also use: page/concave/linear/none/default
 
 # date format used to display post dates. (str used by datetime.datetime.strftime)
-DATE_FORMAT = '%a, %d %b %Y %H:%M:%S %z'
+DATE_FORMAT = '%Y-%m-%d %H:%M'
 
 # FAVICONS contains (name, file, size) tuples.
 # Used for create favicon link like this:
