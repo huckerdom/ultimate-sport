@@ -360,30 +360,34 @@ SCHEDULE_FORCE_TODAY = True
 # Show only teasers in the RSS feed? Default to True
 RSS_TEASERS = False
 
-# A search form to search this site, for the sidebar. You can use a google
-# custom search (http://www.google.com/cse/)
-# Or a duckduckgo search: https://duckduckgo.com/search_box.html
-# Default is no search form.
-# SEARCH_FORM = ""
-#
-# This search form works for any site and looks good in the "site" theme where it
-# appears on the navigation bar
-#SEARCH_FORM = """
-#<!-- Custom search -->
-#<form method="get" id="search" action="http://duckduckgo.com/"
-# class="navbar-form pull-left">
-#<input type="hidden" name="sites" value="%s"/>
-#<input type="hidden" name="k8" value="#444444"/>
-#<input type="hidden" name="k9" value="#D51920"/>
-#<input type="hidden" name="kt" value="h"/>
-#<input type="text" name="q" maxlength="255"
-# placeholder="Search&hellip;" class="span2" style="margin-top: 4px;"/>
-#<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
-#</form>
-#<!-- End of custom search -->
-#""" % BLOG_URL
-#
-# Also, there is a local search plugin you can use.
+### Enable Tipue search #######################################################
+SEARCH_FORM = """
+<span class="navbar-form pull-left">
+<input type="text" id="tipue_search_input">
+</span>"""
+
+BODY_END = """
+<script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
+<script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#tipue_search_input').tipuesearch({
+        'mode': 'json',
+        'contentLocation': '/assets/js/tipuesearch_content.json',
+        'showUrl': false
+    });
+});
+</script>
+"""
+
+EXTRA_HEAD_DATA = """
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+"""
+
+ENABLED_EXTRAS = ['local_search']
+
+### End Tipue search ##########################################################
 
 # Use content distribution networks for jquery and twitter-bootstrap css and js
 # If this is True, jquery is served from the Google CDN and twitter-bootstrap
@@ -394,13 +398,13 @@ USE_CDN = True
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </HEAD>
-EXTRA_HEAD_DATA = """
+EXTRA_HEAD_DATA += """
 <meta name="google-site-verification" content="xDRHDFkmmfUHtCTwXV5lcJQTa_OgzuyV4UKI8J1q1PA" />
 """
 
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
-BODY_END = """
+BODY_END += """
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
