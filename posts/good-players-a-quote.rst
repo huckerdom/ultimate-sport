@@ -8,7 +8,7 @@
 
 Here's a lovely quote from the preface of `Ultimate - Techniques & Tactics
 <http://books.google.co.in/books?id=Zvgbmv7OinAC&pg=PR9&lpg=PR9>`_ by James
-Parinella and Eric Zaslow ::
+Parinella and Eric Zaslow
 
     Resolve yourself to becoming a good player. Good players chase down swill.
     Good players clear out.  Good players cut when they're tired. Good players
