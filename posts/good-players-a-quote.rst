@@ -1,5 +1,5 @@
 .. description: A memorable quote on good ultimate players
-.. tags: good, players, how-to, improve, advise, tips, quote
+.. tags: good, players, how-to, improve, advice, tips, quote
 .. title: Good players -- A quote
 .. link:
 .. author: punchagan

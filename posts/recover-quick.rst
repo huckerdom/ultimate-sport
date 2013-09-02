@@ -27,7 +27,7 @@ important to atleast get over your mistakes in the short term (if not be
 motivated, by them) and continue to play for the team.
 
 Son, you dropped a simple catch?  This is your chance for that psycho layout
-D!  Go for it!
+D!  Err, but recoverr...
 
 A couple of interesting blog posts by Jason, on this topic: `Good Mistakes
 <http://www.ultimaterob.com/2012/09/06/ultimate-intelligence-the-good-mistakes/>`_
