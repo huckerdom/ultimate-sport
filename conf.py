@@ -18,7 +18,7 @@ SITE_URL = "http://blog.ultimatesport.in"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://nikola.ralsina.com.ar"
 BLOG_EMAIL = "admin@ultimatesport.in"
-BLOG_DESCRIPTION = "Ramblings about Ultimate!"
+BLOG_DESCRIPTION = "Ramblings by a bunch of Ultimate freaks"
 
 # Nikola is multilingual!
 #
@@ -56,8 +56,6 @@ TRANSLATIONS = {
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/stories/about.html', 'About'),
-        ('/archive.html', 'Archives'),
-        ('/categories/index.html', 'Tags'),
         ('/rss.xml', 'RSS'),
     ),
 }
@@ -236,7 +234,7 @@ DEPLOY_COMMANDS = ['rsync -rav --delete output/* /var/www/html/ultimatesport.in'
 # INDEXES_PAGES = ""  # If this is empty, the default is 'old posts page %d' translated
 
 # Name of the theme to use.
-THEME = 'custom'
+THEME = 'nyck'
 
 # Color scheme to be used for code blocks. If your theme provide "assets/css/code.css" this
 # is ignored.
@@ -270,12 +268,6 @@ DATE_FORMAT = '%Y-%m-%d %H:%M'
 # http://creativecommons.org/choose/
 LICENSE = """
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
-<img alt="Creative Commons License" style="border-width:0"
-     src="http://i.creativecommons.org/l/by/3.0/80x15.png" />
-</a>
-<br />This <span xmlns:dct="http://purl.org/dc/terms/"
-href="http://purl.org/dc/dcmitype/Text" rel="dct:type">work</span> is licensed under a
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
 Creative Commons Attribution 3.0 Unported License</a>
 """
 
@@ -291,7 +283,6 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # http://disqus.com, and set DISQUS_FORUM to the short name you selected.
 # If you want to disable comments, set it to False.
 # Default is "nikolademo", used by the demo sites
-COMMENT_SYSTEM = 'googleplus'
 COMMENT_SYSTEM_ID = "ultimatesport"
 
 # Create index.html for story folders?
@@ -346,12 +337,11 @@ SCHEDULE_FORCE_TODAY = True
 #"""
 
 # Enable Addthis social buttons?
-# Defaults to true
-# ADD_THIS_BUTTONS = True
+SOCIAL_BUTTONS_CODE = ''
 
 # Modify the number of Post per Index Page
 # Defaults to 10
-# INDEX_DISPLAY_POST_COUNT = 10
+INDEX_DISPLAY_POST_COUNT = 10000
 
 # RSS_LINK is a HTML fragment to link the RSS or Atom feeds. If set to None,
 # the base.tmpl will use the feed Nikola generates. However, you may want to
@@ -363,27 +353,15 @@ RSS_TEASERS = False
 
 ### Enable Tipue search #######################################################
 SEARCH_FORM = """
+<span id="tagcloud"></span>
 <span class="navbar-form pull-left">
-<input type="text" id="tipue_search_input">
-</span>"""
-
-BODY_END = """
-<script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
-<script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#tipue_search_input').tipuesearch({
-        'mode': 'json',
-        'contentLocation': '/assets/js/tipuesearch_content.json',
-        'showUrl': false
-    });
-});
-</script>
+<input type="text" id="tipue_search_input" placeholder="Search this site">
+</span>
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
 """
 
 EXTRA_HEAD_DATA = """
 <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
-<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
 """
 
 ENABLED_EXTRAS = ['local_search']
@@ -405,17 +383,10 @@ EXTRA_HEAD_DATA += """
 
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
-BODY_END += """
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-40178496-1', 'ultimatesport.in');
-  ga('send', 'pageview');
-
-</script>
+BODY_END = """
+<script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
+<script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
+<script type="text/javascript" src="/assets/js/custom.js"></script>
 """
 
 # The possibility to extract metadata from the filename by using a
@@ -468,7 +439,7 @@ TIMEZONE = 'Asia/Kolkata'
 USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
-DISABLED_PLUGINS = ["render_sources"]
+DISABLED_PLUGINS = ["render_sources", "render_archive"]
 
 # Experimental plugins - use at your own risk.
 # They probably need some manual adjustments - please see their respective readme.
