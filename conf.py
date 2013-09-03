@@ -242,6 +242,13 @@ THEME = 'nyck'
 # murphy native pastie perldoc rrt tango trac vim vs
 # CODE_COLOR_SCHEME = default
 
+LESS_THEME_TEMPLATE = """
+@baseColor: %s;
+@bgUrl: url(%s);
+"""
+
+#THEME_TIMEOUT = 60
+
 # If you use 'site-reveal' theme you can select several subthemes
 # THEME_REVEAL_CONGIF_SUBTHEME = 'sky' # You can also use: beige/serif/simple/night/default
 
