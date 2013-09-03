@@ -1,0 +1,36 @@
+#tagcloud {
+  .center-align;
+  font-size: 15px;
+  li:before {
+    content: ""!important;
+  }
+}
+
+.weighted-tag (@num: 5) {
+  font-size: (@num * 20%);
+  color: darken(@baseColor, (@num - 5) * 3%);
+}
+.weight10{
+  .weighted-tag(10);
+}
+.weight9{
+  .weighted-tag(9);
+}
+.weight8{
+  .weighted-tag(8);
+}
+.weight7{
+  .weighted-tag(7);
+}
+.weight6{
+  .weighted-tag(6);
+}
+.weight5{
+  .weighted-tag(5);
+}
+.weight4{
+  .weighted-tag(4);
+}
+.weight3{
+  .weighted-tag(3);
+}

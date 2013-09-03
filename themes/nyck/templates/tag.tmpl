@@ -1,0 +1,34 @@
+## -*- coding: utf-8 -*-
+<%inherit file="list_post.tmpl"/>
+<%namespace name="post_helper" file="post_helper.tmpl"/>
+<%block name="extra_head">
+    %if len(translations) > 1:
+        %for language in translations:
+            <link rel="alternate" type="application/rss+xml" type="application/rss+xml" title="RSS for ${kind} ${tag} (${language})" href="${_link(kind + "_rss", tag, language)}">
+        %endfor
+    %else:
+        <link rel="alternate" type="application/rss+xml" type="application/rss+xml" title="RSS for ${kind} ${tag}" href="${_link(kind + "_rss", tag)}">
+    %endif
+</%block>
+
+<%block name="content">
+        <!--Body content-->
+        <div class="postbox">
+        <h1>${title}</h1>
+        <div class="rss">
+        %if len(translations) > 1:
+            %for language in translations:
+                <a href="${_link(kind + "_rss", tag, language)}">RSS (${language})</a>&nbsp;
+            %endfor
+        %else:
+            <a href="${_link(kind + "_rss", tag)}">RSS</a>
+        %endif
+        </div>
+        <ul class="posts">
+        % for post in posts:
+            ${post_helper.post_listing(post)}
+        % endfor
+        </ul>
+        </div>
+        <!--End of body content-->
+</%block>

@@ -1,0 +1,280 @@
+// Variables
+@bgUrl: url('');
+
+// Imports
+@import "colors.less";
+@import "define.less";
+@import "tagcloud.less";
+
+// Mixins
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.center-align (@width: 80%) {
+  width: @width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Rules
+* {
+  margin:0;
+  padding:0;
+}
+html {
+  height:100%;
+}
+body {
+  height:100%;
+  font-size:16px;
+  background-color:white;
+  color:#222222;
+  line-height:24px;
+  margin:0;
+  border-top:7px solid @shade3;
+  background: @bgUrl no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+  color:@shade3;
+  font-family:"open sans", sans-serif;
+  font-weight:600;
+}
+h1 {
+  font-size:32px;
+  line-height:40px;
+}
+h2 {
+  font-size:24px;
+  line-height:30px;
+}
+h3 {
+  font-size:21px;
+  line-height:24px;
+  margin:1em 0;
+}
+ul {
+  margin:1em 0;
+  list-style:disc;
+}
+a {
+  color:@shade3;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+a:visited {
+  color:@shade3;
+}
+table {
+  font-size:inherit;
+  font:100%;
+}
+img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+ul.posts {
+  margin-top:0;
+  list-style-type:none;
+  margin-bottom:10px;
+  li {
+    line-height:22px;
+    margin-bottom:0px;
+  }
+  span {
+    color:@shade3;
+    font-size:14px;
+  }
+}
+#blog-title, #blog-title a{
+  color:@shade5!important;
+}
+.postbox h1, .postbox h1 a{
+  color:@shade4;
+}
+.meta {
+  color:@shade3;
+  opacity: 0.8;
+  margin:0 0 10px 0;
+  .tags li, p {
+    display:inline;
+  }
+  .tags li:after, span:after {
+    content:" · ";
+  }
+  ul {
+    display:inline;
+    margin:0px;
+    padding:0px;
+  }
+}
+.pager {
+  text-align:center;
+  li {
+    display:inline;
+    margin-top:10px;
+    margin-bottom:25px;
+  }
+  a {
+    background-color:@shade4;
+    opacity:0.7;
+    color:white;
+    border-radius:5px;
+    padding:5px;
+  }
+  .previous {
+    float:left;
+  }
+  .next {
+    float:right;
+  }
+}
+.rss {
+  margin:10px 0px;
+}
+.site .footer {
+  font-size:80%;
+  color:#666666;
+  border-top:4px solid #eeeeee;
+  overflow:hidden;
+}
+nav {
+  .center-align;
+  h1, h2 {
+    text-align:center;
+  }
+  hr {
+    margin-top:10px;
+    margin-bottom:15px;
+    border:dotted #dddddd;
+    border-width:1px 0 0;
+  }
+  li {
+    display:inline;
+    margin:10px;
+  }
+  li:before {
+    display:inline;
+    content:" · ";
+  }
+}
+.container {
+    background: url(https://abs.twimg.com/a/1377795275/t1/img/wash-black-30.png);
+    min-height: 1024px;
+}
+#social {
+  margin-bottom:10px;
+  font-size:13px;
+}
+.post {
+  ul, ol {
+    margin-left:1.35em;
+  }
+  pre {
+    border:1px solid #dddddd;
+    background-color:#eeeeff;
+    padding:0 .4em;
+    margin-bottom:20px !important;
+    code {
+      border:none;
+    }
+  }
+  code {
+    border:1px solid #dddddd;
+    background-color:#eeeeff;
+    font-size:85%;
+    padding:0 .2em;
+  }
+}
+.pic img {
+  padding:5px;
+  border:1px solid #aaaaaa;
+  border-radius:3px;
+  box-shadow:0 1px 3px rgba(0,0,0,0.055);
+  margin-bottom:15px;
+}
+.sidebar {
+  .rounded-corners(10px);
+  background: white;
+  padding-top:25px;
+  margin-right: 5px!important;
+  margin-left: 15px!important;
+  font-family:"open sans", sans-serif;
+  p {
+    font-weight:200;
+  }
+  a {
+    font-weight:600;
+  }
+}
+.content {
+  .rounded-corners(10px);
+  background: white;
+  font:400 16px/22px "open sans", sans-serif;
+  //border-left:1px solid #dddddd;
+  padding-top: 25px;
+  margin-right: 25px;
+}
+.main {
+  .center-align(90%);
+}
+.footer {
+  width:100%;
+  font-size:80%;
+  color:#666666;
+  border-top:4px solid #eeeeee;
+  overflow:hidden;
+}
+.gist {
+  font-size:12px !important;
+}
+sup {
+  vertical-align:super;
+  font-size:smaller;
+}
+.aside {
+  font-size:75%;
+  color:#666666;
+}
+#home h2 {
+  color:@baseColor;
+}
+#logo {
+  margin-bottom:25px;
+}
+.disclaimer p {
+  margin-top:5px;
+  font-size:11px;
+  text-align:center;
+}
+.footnotes {
+  font-size:14px;
+  font-style:italic;
+}
+.icon-overlay {
+  font-size:16px !important;
+  position:relative;
+  bottom:27px;
+  left:5px;
+  color:white;
+}
+.caption {
+  margin:0 auto;
+  text-align:center;
+  font-size:smaller;
+  padding-bottom:10px;
+}
+#tipue_search_input {
+  .center-align;
+}
