@@ -87,11 +87,14 @@ NAVIGATION_LINKS = {
 # rss feeds.
 #
 
-post_pages = (
-    ("posts/*.rst", "posts", "post.tmpl", True),
-    ("posts/*.txt", "posts", "post.tmpl", True),
-    ("stories/*.rst", "stories", "story.tmpl", False),
-    ("stories/*.txt", "stories", "story.tmpl", False),
+POSTS = (
+    ("posts/*.rst", "posts", "post.tmpl"),
+    ("posts/*.txt", "posts", "post.tmpl"),
+)
+
+PAGES = (
+    ("stories/*.rst", "stories", "story.tmpl"),
+    ("stories/*.txt", "stories", "story.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
