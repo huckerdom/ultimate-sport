@@ -108,7 +108,7 @@ def get_random_image(retries=5):
     #from urllib2 import urlopen
     FLICKR = 'http://www.flickr.com'
     SEARCH = '/search/?q=ultimate frisbee %s&l=cc&ct=0&mt=photos&adv=1&page=%d'
-    TERMS = ['throw', 'catch', 'layout', 'bid']
+    TERMS = ['throw', 'catch', 'layout', 'bid', 'sky', 'huck']
 
     #def get_random_image():
     term = choice(TERMS)
