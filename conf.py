@@ -265,10 +265,10 @@ DATE_FORMAT = '%Y-%m-%d %H:%M'
 # Used for create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
 # about favicons, see: http://www.netmagazine.com/features/create-perfect-favicon
-# FAVICONS = {
-#     ("icon", "/favicon.ico", "16x16"),
-#     ("icon", "/icon_128x128.png", "128x128"),
-# }
+FAVICONS = {
+    ("icon", "/favicon.ico", "16x16"),
+    #("icon", "/icon_128x128.png", "128x128"),
+}
 
 # Show only teasers in the index pages? Defaults to False.
 #INDEX_TEASERS = True
