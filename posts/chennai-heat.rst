@@ -10,9 +10,10 @@
 Elliots Beach, Besant Nagar, Chennai!
 
 The tournament is going to be super fun, with lots of play under lights. There
-are `no games between 9am to 4pm<>`_.  I'm interested to see, what the teams end up
-doing during that period. Lot more strategizing?  Or just hitting the streets
-of Chennai and binging on Sambar? ;)
+are `no games between 9am to 4pm
+<http://www.chennaiheat.com/event-info.html>`_.  I'm interested to see, what
+the teams end up doing during that period. Lot more strategizing?  Or just
+hitting the streets of Chennai and binging on Sambar? ;)
 
 Apart from the players (the ones I've played with, and new ones that I'll be
 playing with and against), I'm looking forward to `meeting the folks from Quad
