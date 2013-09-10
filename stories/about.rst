@@ -27,16 +27,8 @@ filename and extension.
     <br>
     <div>Deployer status: <img id="deploy-status" src="/status.png" style="border-radius:10px;background-color:gray;padding:3px;width:50px;height:23px" alt="Checking..." ></div>
     <script>
-    console.log(document.body);
     (function(){
         var elem = document.getElementById('deploy-status');
         elem.src = 'http://'+window.location.hostname+':8008/status.png';
-
-        var gh_fork = document.createElement('a');
-        gh_fork.href = "https://github.com/huckerdom/ultimate-sport";
-        gh_fork.innerHTML =  '<img style="position: absolute; right: 0; border: 0;" '+
-                    'src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" '+
-                    'alt="Fork me on GitHub">';
-        document.querySelector('.navbar.navbar-fixed-top').appendChild(gh_fork);
     })();
     </script>
