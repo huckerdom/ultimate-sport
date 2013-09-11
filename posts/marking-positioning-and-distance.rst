@@ -10,8 +10,8 @@ During Hyderabad HAT, I was in the cup for most part and learnt a few
 things about marking.  My marking improved slightly during the
 tournament, and all it needed was changing a couple of simple things. 
 
-Distance from the handler.
-==========================
+Distance from the handler
+=========================
 
 I was getting broken left, right and center on zone offense.  I know
 that I don't move as quickly as I should, to prevent a dump to the
