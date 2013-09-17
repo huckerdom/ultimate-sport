@@ -9,7 +9,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 commands = ['git stash', 'git checkout master', 'git pull origin master',
-            'nikola build', 'nikola deploy']
+            'nikola build', 'nikola build', 'nikola deploy']
 
 GITHUB_IPS = ['207.97.227.253', '50.57.128.197', '108.171.174.178', '50.57.231.61',
               '204.232.175.65-204.232.175.94', '192.30.252.1-192.30.255.254']
