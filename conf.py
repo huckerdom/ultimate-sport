@@ -327,6 +327,8 @@ SCHEDULE_ALL = True
 SCHEDULE_FORCE_TODAY = True
 
 
+CREATE_ERROR_PAGE = True
+
 # Do you want a add a Mathjax config file?
 # MATHJAX_CONFIG = ""
 
