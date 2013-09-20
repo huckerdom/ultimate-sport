@@ -1,6 +1,6 @@
 .. link:
 .. description: Infected by the spirit of the game
-.. tags: noob friendly, spirit, joy
+.. tags: noob-friendly, spirit, joy
 .. date: 2013/04/30 18:40:44
 .. title: Spirit Infected
 .. slug:
