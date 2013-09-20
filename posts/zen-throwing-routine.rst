@@ -1,5 +1,5 @@
 .. description: The Zen throwing routine
-.. tags: throwing, drill, practice, zen
+.. tags: drill, practice, zen, throw
 .. title: Zen Throwing Routine
 .. link:
 .. author: punchagan

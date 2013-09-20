@@ -1,5 +1,5 @@
 .. description: The Kung-fu throwing routine
-.. tags: kung-fu, practice, throwing, drill 
+.. tags: kung-fu, practice, drill, throw
 .. title: Kung fu Throwing
 .. link: 
 .. author: punchagan

@@ -1,5 +1,5 @@
 .. description: A few things I learnt about positioning and distance while marking
-.. tags: marking, position, defense, tips
+.. tags: position, defense, tips, mark
 .. title: Marking: Positioning and Distance
 .. link: 
 .. author: punchagan
