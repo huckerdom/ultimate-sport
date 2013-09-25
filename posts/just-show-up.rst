@@ -1,5 +1,5 @@
 .. description: Just show up for practice, even if you are the only one!
-.. tags:
+.. tags: practice, player, top, team, commitment
 .. title: Just Show Up!
 .. link:
 .. author: punchagan
