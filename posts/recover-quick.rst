@@ -1,5 +1,5 @@
 .. description: Recover quickly from your mistakes, for your team
-.. tags: mistakes, mental-game, recovery, team, advice
+.. tags: mental-game, recovery, team, advice, mistake
 .. title: Recover quick!
 .. link:
 .. author: punchagan
