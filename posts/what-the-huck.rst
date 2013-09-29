@@ -91,3 +91,8 @@ the zone defense works.
 In conclusion, what I found out today is that it's quite difficult to
 talk about a game you love, and get across it's awesomeness. Some
 things can only be experienced first hand!  See you on the field!
+
+PS: A `Huck <http://www.ultipedia.org/wiki/Huck>`_ is a long distance
+pass - typically half the playing field or more. Hucks are a big part
+of many offensive strategies as they often result in quick points or
+substantial yardage gains.
