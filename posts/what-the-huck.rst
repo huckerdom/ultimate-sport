@@ -77,8 +77,9 @@ Joy
 
 I play for pure joy.  The sight of a disc floating in front of me, is
 so luring for me that I MUST chase it down and catch it.  The sight of
-players, even from your oppositions, jumping sky high to come down
-with the disc is such a joy!
+players, even from your oppositions, `jumping sky high to come down
+with the disc is such a joy
+<https://www.facebook.com/photo.php?fbid=703778059638034&set=a.703168979698942.1073741838.633734823309025&type=3&theater>`_!
 
 Ultimate involves a huge range of "tasks" - marking, defending,
 catching, throwing.  Each of these tasks need quite a lot of practice
