@@ -9,8 +9,8 @@
 TL;DR: Honesty, Intensity and Joy!  The reasons why I play Ultimate
 
 What the Huck.  Ultimate Frisbee® 101, for anyone who has ever thrown
-a Frisbee® or a Flying Disc.  I gave a talk today at barcamp titled
-what the huck, which was intended to be an introduction to Ultimate,
+a Frisbee® or a Flying Disc.  I gave a talk today at Barcamp titled
+*"What The Huck"*, which was intended to be an introduction to Ultimate,
 one that would hopefully get more people to play the sport.  But,
 unfortunately, I guess I chose the wrong title for the topic, and not
 too many people turned up for the talk.  So, I decided to post the
@@ -22,7 +22,7 @@ For those who do not know, what Ultimate Frisbee® is, here is a nice
 
 Long ago, a couple of friends shared with me a kind of a mantra that
 `Vivian Richards <https://en.wikipedia.org/wiki/Vivian_Richards>`_
-shared in an interview: Honesty, Integrity and Joy.  We just loved
+shared in an interview: _Honesty, Intensity and Joy_.  We just loved
 this mantra.
 
 In another time and age, the same couple of friends, introduced me to
