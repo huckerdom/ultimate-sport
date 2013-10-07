@@ -22,7 +22,7 @@ For those who do not know, what Ultimate Frisbee® is, here is a nice
 
 Long ago, a couple of friends shared with me a kind of a mantra that
 `Vivian Richards <https://en.wikipedia.org/wiki/Vivian_Richards>`_
-shared in an interview: _Honesty, Intensity and Joy_.  We just loved
+shared in an interview: *Honesty, Intensity and Joy*.  We just loved
 this mantra.
 
 In another time and age, the same couple of friends, introduced me to
