@@ -1,9 +1,0 @@
-[Core]
-Name = themes
-Module = themes
-
-[Documentation]
-Author = Puneeth Chaganti
-Version = 0.1
-Website = http://punchagan.muse-amuse.in
-Description = Theme the site "randomly"
