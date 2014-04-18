@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Ultimate! (site)</title><link>http://blog.ultimatesport.in/</link><description></description><language>en</language><lastBuildDate>Sun, 16 Mar 2014 22:00:07 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Updates to the site</title><link>http://blog.ultimatesport.in/posts/updates-to-the-site.html</link><dc:creator>punchagan</dc:creator><description>&lt;div&gt;&lt;p&gt;This is not really a post on Ultimate, but just a note on some of the
+changes I made to the site.  I've spent quite a bit of time on the new
+theme, and I like the way it has turned out.  I know, some of you are
+thinking, I could've gone to the field and got in some throws instead!&lt;/p&gt;
+&lt;p&gt;You can skip the rest of the post, if you are not interested in the
+details of how the site is published and the theme.  But, for the
+interested, here are the details.&lt;/p&gt;
+&lt;p&gt;The site is powered by &lt;a class="reference external" href="http://getnikola.com"&gt;Nikola&lt;/a&gt;, a static site
+generator, written in Python.  The posts are written in plain text
+using &lt;a class="reference external" href="http://docutils.sourceforge.net/rst.html"&gt;reStructured text&lt;/a&gt;.
+Anybody can contribute to the site, either by forking the repository
+on GitHub and sending us a pull request, or just leave a comment on
+this post, and we'll get back to you.&lt;/p&gt;
+&lt;p&gt;The theme is &lt;a class="reference external" href="https://github.com/huckerdom/nyck"&gt;here&lt;/a&gt;. It is a mix
+of twitter's look and the &lt;a class="reference external" href="https://github.com/punchagan/lagom4ni"&gt;Lagom4ni&lt;/a&gt; theme.  The theme changes
+the background image automatically, by &lt;a class="reference external" href="https://github.com/huckerdom/ultimate-sport/blob/master/plugins/themes.py#L100"&gt;fetching a random image&lt;/a&gt;
+from Flickr.  Also, the image is analyzed to find the dominant color
+of the image and style the rest of the looks of the site.  The bottom
+of the page, contains a link to the original image on Flickr.  I'm not
+responsible for any images that look inappropriate. ;)&lt;/p&gt;
+&lt;p&gt;Finally, I've also designed a &lt;a class="reference external" href="https://github.com/huckerdom/huckimg/blob/master/ultimate-sport-512.png"&gt;new logo&lt;/a&gt;
+for the site.  It is a shameless ripoff of the "I &amp;lt;3 NY" theme.  The
+skying image is a derivative of &lt;a class="reference external" href="http://www.flickr.com/photos/damclean/260337381/"&gt;this photograph&lt;/a&gt;.  Any suggestions
+to improve the logo are welcome!&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a class="reference external" href="https://twitter.com/kkrovvidi"&gt;@kkrovvidi&lt;/a&gt;, &lt;a class="reference external" href="https://twitter.com/baali_"&gt;@baali_&lt;/a&gt;, &lt;a class="reference external" href="https://twitter.com/cloud9trt"&gt;@cloud9trt&lt;/a&gt;, &lt;a class="reference external" href="https://twitter.com/riteshsaini"&gt;@riteshsaini&lt;/a&gt; and everyone else, who helped with
+the logo and the theme design.&lt;/p&gt;
+&lt;p&gt;Also, I wish to update the post regularly.  I've even managed to get a
+new &lt;a class="reference external" href="https://github.com/ralsina/nikola/pull/602"&gt;scheduling feature&lt;/a&gt;
+added to Nikola, for this!  I &lt;a class="reference external" href="https://github.com/huckerdom/ultimate-sport/blob/f37ef6fb8e34541c2086b417fc4390b7a4d3cc33/conf.py#L323"&gt;plan to update&lt;/a&gt;
+the site every Monday, Wednesday and Friday at 8 am.  I wouldn't mind
+a poke or two, from the readers, if I go out of schedule!  Thank you!&lt;/p&gt;&lt;/div&gt;</description><category>site</category><category>logo</category><category>design</category><category>updates</category><guid>http://blog.ultimatesport.in/posts/updates-to-the-site.html</guid><pubDate>Fri, 13 Sep 2013 02:30:00 GMT</pubDate></item></channel></rss>
